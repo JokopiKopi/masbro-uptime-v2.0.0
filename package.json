@@ -1,6 +1,6 @@
 {
   "name": "masbro-uptimer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Discord.js v14 si masbro uptimer bot",
   "main": "index.js",
   "scripts": {
