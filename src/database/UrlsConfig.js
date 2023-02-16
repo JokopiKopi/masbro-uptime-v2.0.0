@@ -5,7 +5,7 @@ const UrlsConfig = new mongoose.Schema(
     authorID: {
       type: mongoose.SchemaTypes.String,
       required: true,
-      unique: true,
+      unique: false,
     },
     URL: {
       type: mongoose.SchemaTypes.String,
@@ -19,12 +19,12 @@ const UrlsConfig = new mongoose.Schema(
     },
     error: {
       type: mongoose.SchemaTypes.Boolean,
-      required: true,
-      default: true,
+      required: false,
+      default: false,
     },
     errorText: {
       type: mongoose.SchemaTypes.String,
-      required: true,
+      required: false,
     },
   },
   {
