@@ -12,7 +12,7 @@ module.exports = {
 
       client.user.setPresence({
         activities: [{
-          name: `many projects`,
+          name: `100% PRIVACY`,
           type: 3
         }],
         status: 'idle'
